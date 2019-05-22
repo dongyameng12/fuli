@@ -9,18 +9,20 @@ body{
 a{
     color: #333;
 }
-.page_pic>:first-child{
+.page>:first-child{
     width: 7.5rem;
     height: 4rem;
     background: url(../images/fu_01.png) no-repeat center center;
     background-size: cover;
 
 }
-.page_pic>:nth-child(2){
+.page>:nth-child(2){
     width: 7.5rem;
     height: 2.7rem;
     background: url(../images/fu_02.png) no-repeat center center;
     background-size: cover; 
+    position: relative;
+    top: -1px;
 }
 .page_choose{
     width:7.5rem;
@@ -28,6 +30,7 @@ a{
     background: url(../images/fu_07.png) no-repeat center center;
     background-size: cover; 
     position: relative;
+    top: -2px;
 }
 /* .page_choose>div:nth-child(1){
     display: flex;
