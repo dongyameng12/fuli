@@ -1,0 +1,196 @@
+html,body{
+    font-size: 58.5938px;
+}
+body{
+    font-family: Helvetica Neue, Helvetica,'宋体',"微软雅黑", "黑体", Arial, sans-serif;
+    height: 100%;
+    background-color: #ff8a00;
+}
+a{
+    color: #333;
+}
+.page_pic>:first-child{
+    width: 7.5rem;
+    height: 4rem;
+    background: url(../images/fu_01.png) no-repeat center center;
+    background-size: cover;
+
+}
+.page_pic>:nth-child(2){
+    width: 7.5rem;
+    height: 2.7rem;
+    background: url(../images/fu_02.png) no-repeat center center;
+    background-size: cover; 
+}
+.page_choose{
+    width:7.5rem;
+    height:6.5rem ;
+    background: url(../images/fu_07.png) no-repeat center center;
+    background-size: cover; 
+    position: relative;
+}
+/* .page_choose>div:nth-child(1){
+    display: flex;
+    width: 100%;
+    height: 1.4rem;
+    align-items: center;
+    justify-content: center;
+} */
+/* .page_chooseP{
+    width: 5.27rem;
+    height: 0.61rem;
+} */
+.page_choosePicL,.page_choosePicR{
+    width: 2.87rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page_choosePic{
+    position: absolute;
+    top: 2.17rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 6.9rem;
+    align-items: center;
+}
+.page_choosePicL>:first-child{
+    width: 2.87rem;
+    height: 2.78rem;
+}
+.btn{
+    width: 2.39rem;
+    height: 0.85rem;
+    background: url(../images/fu_06.png) center no-repeat;
+    background-size: cover;
+}
+.btnAll{
+    width: 2.39rem;
+    height: 0.85rem;
+    background: url(../images/fu_06_01.png) center no-repeat;
+    background-size: cover;  
+}
+.zi{
+    width: 0.85rem;
+    height: 0.86rem;
+    position: relative;
+    bottom: 0.2rem;
+}
+.page_choosePicR>:first-child{
+    width: 2.92rem;
+    height: 2.78rem;
+}
+
+.page_footer{
+    width: 6.82rem;
+    height: 8.04rem;
+    overflow-y: hidden;
+    background: url(../images/fu_08.png) no-repeat center center;
+    background-size: cover;
+    margin: 0.4rem auto;
+}
+.page_footer li{
+    font-size: 0.28rem;
+    text-indent: -2em;
+    line-height:0.46rem;
+    text-align: justify;
+}
+.count{
+    display:inline-block;
+    width: 1em;
+}
+ul{
+    padding-left: 0.75rem;
+    padding-right: .2rem;
+    box-sizing: border-box;
+    margin-top: 1.16rem;
+    height: 80%;
+    overflow-y: auto;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/*弹窗  */
+.mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0,0, 0.5);
+    z-index: 200;
+    display: none;
+}
+.pop{
+    font-size: 0.34rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 201;
+    width: 6.53rem;
+    height: 7.59rem;
+    border-radius: 0.1rem;
+    margin: auto;
+    display: none;
+}
+.backOne{
+    width: 6.53rem;
+    height: 3.47rem;
+    background: url(../images/fu_10_01.png) no-repeat center center;
+    background-size: cover;
+}
+.backTwo{
+    width: 6.53rem;
+    height: 3.47rem;
+    background: url(../images/fu_10_06.png) no-repeat center center;
+    background-size: cover;
+}
+.popText{
+    width: 5.70rem;
+    height: 3.47rem;
+    background: url(../images/fu_10_02.png) no-repeat center center;
+    background-size: cover;
+    margin-left: .83rem;
+    font-size: .28rem;
+    color: #ff4a4a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.popText p{
+    width: 4.6rem;
+    margin: 0 auto;
+}
+.popBtn1{
+    width:1.76rem;
+    height: .94rem;
+    background: url(../images/fu_10_03.png) no-repeat;
+    background-size: cover;
+}
+.popBtn2{
+    width:1.76rem;
+    height: .94rem;
+    background: url(../images/fu_10_04.png) no-repeat;
+    background-size: cover;
+}
+.popBtn{
+    width: 4.6rem;
+    display: flex;
+    justify-content: space-between;
+    margin: .47rem auto 0;
+}
+.close{
+    display: flex;
+    justify-content: center;
+    margin-left: .83rem;
+    margin-top: .26rem; 
+}
+.close div{
+    width:.65rem;
+    height: .65rem;
+    background: url(../images/fu_10_05.png) no-repeat;
+    background-size: cover;
+}
